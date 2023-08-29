@@ -1,6 +1,7 @@
 NAME = WatanabeEngine
 CC = g++
 CFLAGS = -Wall -Wextra -Werror -std=c++17 -O2
+LDFLAGS = -LSDL/lib -lSDL2 -lm
 RM = rm -f
 
 SRC_DIR = srcs/
